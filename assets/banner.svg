@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171e"/>
+      <stop offset="100%" stop-color="#0d6e5e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ec794"/>
+      <stop offset="100%" stop-color="#b8853a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6ec794" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0d6e5e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+
+  <!-- Grid pattern -->
+  <g stroke="#1a1f28" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="300" y1="0" x2="300" y2="280"/>
+    <line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="900" y1="0" x2="900" y2="280"/>
+  </g>
+
+  <!-- Logo mark: stacked diamonds -->
+  <g transform="translate(80, 140)">
+    <path d="M 0,-60 L 35,-25 L 0,10 L -35,-25 Z" fill="none" stroke="#6ec794" stroke-width="2"/>
+    <path d="M 0,-25 L 35,10 L 0,45 L -35,10 Z" fill="none" stroke="#6ec794" stroke-width="2" opacity="0.6"/>
+    <path d="M 0,10 L 35,45 L 0,80 L -35,45 Z" fill="url(#accent)" opacity="0.85"/>
+  </g>
+
+  <!-- Text -->
+  <text x="180" y="120" font-family="'DM Serif Display', Georgia, serif" font-size="58" fill="#ffffff" font-weight="400">NASHWAN</text>
+  <text x="180" y="160" font-family="'JetBrains Mono', monospace" font-size="14" fill="#6ec794" letter-spacing="3">FOUNDER · NASCO</text>
+  <text x="180" y="200" font-family="'Outfit', sans-serif" font-size="18" fill="#b6bbc5">Building the AI-native business operating system</text>
+</svg>
